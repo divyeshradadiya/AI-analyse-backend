@@ -8,8 +8,8 @@ export const config = {
   corsOrigin: process.env.CORS_ORIGIN || "http://localhost:3000",
   openRouter: {
     apiKey: process.env.OPENROUTER_API_KEY || "",
-    apiUrl: process.env.OPENROUTER_API_URL || "https://openrouter.ai/api/v1",
-    model: process.env.AI_MODEL || "x-ai/grok-4.1-fast",
+    apiUrl: "https://openrouter.ai/api/v1",
+    model: "x-ai/grok-4.1-fast",
   },
 };
 
